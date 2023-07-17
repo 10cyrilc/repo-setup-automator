@@ -12,6 +12,10 @@ This script is designed to streamline the setup process for cloning and setting 
   - For js or ts projects:
     - Installing Node.js dependencies using `npm install`
 
+## Demo
+
+![demo](./demo/demo.PNG)
+
 ## Prerequisites
 
 Make sure you have the following tools and software installed on your system:
@@ -32,6 +36,24 @@ Make sure you have the following tools and software installed on your system:
    ```bash
    ./automate.sh
    ```
+
+4. Enter the GitHub repository URL when prompted.
+
+## Notes
+
+- If the entered repository URL contains "git", it assumes it's a Git repository. Make sure to enter the correct URL.
+
+- For Python projects, make sure there is a requirements.txt file in the root of the repository, listing the Python dependencies.
+
+- For JS or TS projects, make sure there is a package.json file in the root of the repository, specifying the Node.js dependencies.
+
+- If the project type cannot be determined or is unknown, the script will display a message indicating an unknown project type.
+
+- The script includes a countdown of 5 seconds before exiting.
+
+## License
+
+This script is released under the [MIT License](/LICENSE)
 
 ## Authors
 
