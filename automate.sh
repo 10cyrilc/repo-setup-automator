@@ -44,6 +44,7 @@ if [[ $repo_url == *"git"* ]]; then
     fi
 
     echo -e "${GREEN}Script execution completed.${NC}"
+    sleep 5
 
 # Not a git repo
 else
