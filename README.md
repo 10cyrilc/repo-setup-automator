@@ -12,7 +12,7 @@ This script is designed to streamline the setup process for cloning and setting 
   - For js or ts projects:
     - Installing Node.js dependencies using `npm install`
 
-## Demo
+## Screenshot
 
 ![demo](./demo/demo.PNG)
 
